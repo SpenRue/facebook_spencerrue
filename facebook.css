@@ -1,0 +1,252 @@
+body {
+	padding:0px;
+	margin:0px;
+	font-family:"Lucida Sans";
+}
+
+#wrapper {
+	width:1400px;
+	margin:0 auto 0 auto;
+}
+
+/* Header */
+header {
+	height:34px;
+	position:fixed;
+	top:0px;
+	width:100%;
+	overflow:auto;
+	border-bottom: 1px solid #133783;
+	-webkit-box-shadow: 1px 1px 4px #222; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #222;
+	background-color:#3B5998;
+	min-width:600px;
+}
+
+header ul {
+	margin:0px;
+	margin-left:30px;
+}
+
+header ul li{
+	float:left;
+	list-style-type:none;
+}
+
+header ul li a {
+	color:#fff;
+	font-size:16pt;
+	font-family:tahoma;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:34px;
+	
+}
+
+header input[type=text]{
+	margin:6px;
+	color:#777;
+	width:350px;
+}
+
+header i.requests {
+	background-position:-28px -255px;
+}
+
+header i.messages {
+	background-position:-35px -11px;
+}
+
+header i.notifications {
+	background-position:-60px -10px;
+}
+
+
+div.wrapper {
+	margin-top:34px;
+}
+
+header div.wrapper {
+	margin-top:0px;
+}
+
+/* ICON STYLES */
+i {
+	background-image: url("images/fb-icon-set.png");
+	display:inline-block;
+	height:16px;
+	width:16px;
+	margin:auto 6px auto 6px;
+}
+
+
+/* Navigation*/
+
+nav {
+	float:left;
+	width:300px;
+}
+
+nav h4 a{
+	font-size:13px;
+	color:#3B5998;
+	float:left;
+	margin-top:34px;
+	margin-left:16px;
+	text-decoration:none;
+}
+
+img#profile {
+	float:left;
+	width:60px;
+	height:auto;
+	display:inline;
+	margin-top:15px;
+}
+
+nav h3 {
+	font-size:9px;
+	color:#999999;
+}
+
+nav h3#top {
+	margin-top:140px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li {
+	margin:5px 0 5px 0;
+}
+
+nav ul li a {
+	font-size:12px;
+	text-decoration:none;
+	font-weight: bold;
+	color:#333;
+}
+
+nav ul li.current {
+	background-color:#D8DFEA;
+	padding:5px;
+}
+
+nav i {
+	position:relative;
+	top:4px;
+}
+
+
+i.news {
+	background-position:-69px -426px;
+}
+
+i.messages{
+	background-position:-51px -426px;
+}
+
+i.events{
+	background-position:-53px -576px;
+}
+
+i.photos{
+	background-position:-66px -559px;
+}
+
+i.music {
+	background-position:-69px -478px;
+}
+
+/* Main */
+
+#feed {
+	width:1098px;
+	float:left;
+	border:1px solid #ccc;
+	margin-bottom:10px;
+}
+
+#feed h3 {
+	margin-top:50px;
+	border:1px solid #ccc;
+	border-width:1px 0 1px 0;
+	font-size:9px;
+	color:#999999;
+	padding:4px 0px 4px 8px;
+}
+
+img.account_imgs {
+	width:80px;
+	height:auto;
+	float:left;
+	margin:5px 0 5px 0;
+}
+
+div.content {
+	float:left;
+	width:980px;
+	display:inline;
+	padding-left:10px;
+}
+
+div.content p {
+	margin:0px;
+}
+
+div .post {
+	border-top:1px solid #ccc;
+	overflow:auto;
+	margin:10px;
+}
+
+.first-post {
+	overflow:auto;
+	margin:10px;
+}
+
+.first-post h4{
+	margin:5px 0px 5px 0px;
+}
+
+.post h4{
+	margin:5px 0px 5px 0px;
+}
+
+.first-post h4 a {
+	font-size:13px;
+	color:#3B5998;
+	text-decoration:none;
+}
+
+.post h4 a {
+	font-size:13px;
+	color:#3B5998;
+	text-decoration:none;
+}
+
+.meta {
+	font-size:9px;
+	color:#999;
+}
+
+.meta a {
+	text-decoration:none;
+	color:#6D84B4;
+}
+
+/*footer*/
+
+footer p {
+	margin-left:300px;
+	font-size:12px;
+	color:#999;
+}
+
+footer a {
+	text-decoration:none;
+	color:#3B5998;
+}
